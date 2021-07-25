@@ -1,0 +1,68 @@
+body {
+  background-color: #afeeee;
+}
+.header {
+  display: flex;
+}
+.header-logo {
+  color: white;
+  font-family: "Montserrat Alternates", sans-serif;
+  padding: 10px;
+  font-size: 50px;
+  float: left;
+}
+
+li {
+  list-style-type: none;
+  font-family: "Montserrat Alternates", sans-serif;
+  padding: 20px;
+  font-size: 20px;
+  float: right;
+  color: white;
+}
+
+.top {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.top img {
+  width: 1000px;
+  border-radius: 20px;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 70px;
+  opacity: 0.4;
+  padding: 80px;
+}
+
+.about {
+  display: flex;
+  text-align: center;
+  padding: 80px;
+}
+
+.about img {
+  width: 300px;
+}
+
+.diving {
+  display: flex;
+}
+
+.diving img {
+  margin: left 30px;
+  width: 600px;
+  border-radius: 20px;
+}
+
+.fish {
+  float: left;
+}
+
+.aquarium img {
+  padding: 80px;
+  width: 700px;
+  float: left;
+}
