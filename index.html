@@ -20,51 +20,66 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap"
       rel="stylesheet"
     />
-
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap"
+      rel="stylesheet"
+    />
     <title>My Portfolio</title>
   </head>
   <body>
     <div class="header">
       <div class="header-logo">MISA KURODA</div>
-      <div class="header-list">
+      <div class="header-menu">
+        <!--<i class="fab fa-facebook fa-4x"></i>
+        <i class="fab fa-instagram fa-4x"></i>-->
         <ul>
-          <li>ABOUT</li>
-          <li>DFIVING</li>
-          <li>AQUARIUM</li>
+          <li><a href="#top">ABOUT</a></li>
+          <li><a href="#moguru">DIVING</a></li>
+          <li><a href="#shodou">WORKS</a></li>
         </ul>
       </div>
     </div>
 
-    <div class="top">
-      <img src="images/海辺.jpg" alt="" />
+    <div class="top" id="top">
+      <i class="fas fa-chevron-left yazirusi fa-4x" id="left-button"></i>
+      <img src="images/umibe.jpg" id="main-foto" />
+      <i class="fas fa-chevron-right yazirusi fa-4x" id="right-button"></i>
+
+      <div class="fixed"></div>
     </div>
 
-    <div class="about">
-      <img src="images/私2.jpg" alt="私" class="watasi" />
+    <div class="about" id="about">
+      <img id="watasi-gao" src="images/watasi.jpg" alt="私" class="watasi" />
       <h2>ABOUT</h2>
     </div>
-
-    <div class="diving">
-      <h2>DIVING</h2>
-      <img src="images/サンセット.jpg" alt="" />
+    <div class="about-text">
+      <h3>age:22</h3>
+      <a href="https://www.osaka-u.ac.jp/ja">university:大阪大学</a>
+      <h3>学部：外国語学部ドイツ語専攻</h3>
     </div>
 
-    <div class="aquarium">
-      <h2>AQUARIUM</h2>
-      <div class="fish">
-        <img src="images/クマノミ.jpg" alt="" />
-        <p>クマノミ</p>
-      </div>
+    <div class="diving" id="moguru">
+      <h2 id="diving-text">DIVING</h2>
+      <img src="images/syunokel.jpg" alt="" />
+    </div>
 
-      <div class="fish">
-        <img src="images/カメ.jpg" alt="" />
-        <p>ウミガメ</p>
-      </div>
+    <div class="works" id="shodou">
+      <img src="images/syodou.jpg" alt="" />
+      <h2>WORKS</h2>
+    </div>
 
-      <div class="fish">
-        <img src="images/ハタタテハゼ.jpg" alt="" />
-        <p>ハタタテハゼ</p>
-      </div>
+    <div class="shumi">
+      <a href="https://www.instagram.com/spanischerpfeffer/"
+        >私の趣味アカウント</a
+      >
     </div>
 
     <script src="main.js"></script>

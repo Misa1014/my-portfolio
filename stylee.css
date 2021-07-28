@@ -1,0 +1,19 @@
+body {
+  background-color: #afeeee;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Amatic SC", cursive;
+  font-size: 100px;
+}
+
+.viele-foto {
+  display: flex;
+  justify-content: space-around;
+}
+
+.viele-foto img {
+  width: 450px;
+  border-radius: 450px;
+}
